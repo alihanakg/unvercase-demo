@@ -160,7 +160,7 @@ function initializeParticles() {
         particlesJS('particles-js', {
             particles: {
                 number: {
-                    value: 150,
+                    value: 250,
                     density: {
                         enable: true,
                         value_area: 800
@@ -183,13 +183,13 @@ function initializeParticles() {
                 links: {
                     enable: true,
                     distance: 200,
-                    opacity: 0.2,
+                    opacity: 0.3,
                     width: 1,
                     color: "#ffffff"
                 },
                 move: {
                     enable: true,
-                    speed: 3,
+                    speed: 1.5,
                     random: true,
                     straight: false,
                     outModes: {
